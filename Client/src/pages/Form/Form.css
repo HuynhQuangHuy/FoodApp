@@ -109,6 +109,21 @@
   border: none;
 }
 
+.input-element-wrapper {
+  display: flex;
+  align-items: center;
+}
+.eye-btn {
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  height: 40px;
+  margin-top: 0.1rem;
+  margin-left: -2rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .form-input::placeholder {
   color: #595959;
   font-size: 12px;

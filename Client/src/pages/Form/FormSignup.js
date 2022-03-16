@@ -5,6 +5,7 @@ import { AuthContext } from "../../contexts/authContext";
 import "./Form.css";
 import { Link } from "react-router-dom";
 import AlertMessage from "../../components/layout/AlertMessage";
+import "./Form.css";
 
 const FormSignup = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(

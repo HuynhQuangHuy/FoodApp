@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Footer from "../../components/common/footer";
+import { FooterContainer } from "../../components/common/footer/containers/footer";
 import Header from "../../components/common/header";
 import TabOptions from "../../components/common/tabOptions";
 import Delivery from "../../components/delivery";
@@ -12,7 +12,7 @@ const Home = () => {
       <Header />
       <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
       {getCorrectScreen(activeTab)}
-      <Footer />
+      <FooterContainer />
     </div>
   );
 };

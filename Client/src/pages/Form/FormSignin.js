@@ -5,6 +5,7 @@ import "./Form.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useContext } from "react";
 import { AuthContext } from "../../contexts/authContext";
+import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 
 const FormSignin = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
@@ -41,6 +42,11 @@ const FormSignin = ({ submitForm }) => {
       console.log(error);
     }
   };
+  const [passwordShown, setPasswordShown] = useState(false);
+
+  const togglePassword = () => {
+    setPasswordShown((prevState) => !prevState);
+  };
 
   return (
     <div className="form-content-right">
@@ -72,17 +78,21 @@ const FormSignin = ({ submitForm }) => {
         </div>
         <div className="form-inputs">
           <label className="form-label">Password</label>
-          <input
-            className="form-input"
-            type="password"
-            name="password"
-            placeholder="Enter your password"
-            value={password}
-            onChange={onChangeLoginForm}
-          />
-          {errors.password && <p>{errors.password}</p>}
+          <div className="input-element-wrapper">
+            <input
+              className="form-input"
+              type={passwordShown ? "text" : "password"}
+              name="password"
+              placeholder="Enter your password"
+              value={password}
+              onChange={onChangeLoginForm}
+            />
+            <button className="eye-btn" onClick={togglePassword}>
+              {passwordShown ? <AiFillEyeInvisible /> : <AiFillEye />}
+            </button>
+            {errors.password && <p>{errors.password}</p>}
+          </div>
         </div>
-
         <button className="form-input-btn" type="submit">
           Sign in
         </button>
