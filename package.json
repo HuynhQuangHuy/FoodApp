@@ -1,0 +1,26 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "# Lessons",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basir/mern-amazona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basir/mern-amazona/issues"
+  },
+  "homepage": "https://github.com/basir/mern-amazona#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "react-bootstrap": "^2.3.0",
+    "styled-components": "^5.3.5"
+  }
+}
