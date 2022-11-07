@@ -1,0 +1,146 @@
+{
+  "home": "Home Page",
+  "logout": "Logout",
+  "choosenTab": {
+    "comfirmBox": "Are you sure you want to order?",
+    "comfirmButton": "Comfirm",
+    "timeOutButton": "Timeout",
+    "cancelButton": "Cancel",
+    "deleteButton": "Delete all",
+    "note": "Your notes"
+  },
+  "comFirm": {
+    "amount": "Number of dishes:",
+    "total": "Total: ",
+    "price": "Price: ",
+    "quantity": "Amount: ",
+    "error": "You have nothing to pay for"
+  },
+  "listItem": {
+    "title": "Are you sure you want to delete it?",
+    "comfirm": "Confirm",
+    "cancel": "Cance",
+    "price": "Price: ",
+    "quantity": "Amount: ",
+    "total": "Total: "
+  },
+  "payTab": {
+    "title": "Status chart of payment orders",
+    "paidLabel": "Paid",
+    "unpaidLabel": "Unpaid",
+    "moneyChartTitle": "Status chart of payment amount",
+    "paidMoney": "Paid money",
+    "unpaidMoney": "Unpaid money",
+    "comfirm": " Are you sure this user has already paid?",
+    "price": "Price: ",
+    "quantity": "Amount: ",
+    "total": "Total: ",
+    "cancel": "Cance",
+    "empty": "List is empty"
+  },
+  "dishTable": {
+    "add": "More dishes",
+    "foodName": "Name of dish",
+    "price": "Price (VND)",
+    "image": "Image"
+  },
+  "foodList": {
+    "alert": "Order Success",
+    "waiting": "Confirming",
+    "status": "Ordered",
+    "empty": "List is empty",
+    "list": "List of dishes",
+    "comfirm": "Choose a dish"
+  },
+  "trend": {
+    "trend": "Trending",
+    "alert": "It's not time to order yet, please come back later",
+    "post": "Create a new post",
+    "page": "Personal page"
+  },
+  "header": {
+    "profile": "My profile",
+    "logOut": "Log out"
+  },
+  "countDown": {
+    "title": "Time remaining"
+  },
+  "detail": {
+    "alert": "Successful login!",
+    "account": "My account",
+    "cart": "Order report",
+    "detail": "Post details",
+    "list": "List of dishes",
+    "status": "Ordered"
+  },
+  "edit": {
+    "title": "Edit Profile",
+    "information": "Personal information",
+    "personalInfo": "Manage profile information for account security",
+    "edit": "Edit Profile",
+    "bank": "Edit bank account",
+    "save": "Save",
+    "comfirm": " Successful update!",
+    "userName": "User Name",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "number": "Account number",
+    "bankName": "Bank name",
+    "owner": "Account holder"
+  },
+  "detailsBooked": {
+    "detail": "Order details: ",
+    "food": "Dishes: ",
+    "personalInfo": "Manage profile information for account security",
+    "edit": "Edit Profile",
+    "bank": "Edit bank account",
+    "save": "Save",
+    "comfirm": "Successful update!",
+    "title": "Post name",
+    "date": "Order date",
+    "status": "Status",
+    "note": "Note",
+    "price": "Price: ",
+    "quantity": "Quantity: ",
+    "total": "Total: ",
+    "name": "Name",
+    "unPaid": "Unpaid"
+  },
+  "posted": {
+    "image": "Image",
+    "title": "Title",
+    "time": "Post creation time",
+    "endTime": "End time"
+  },
+  "report": {
+    "title": "Order report",
+    "detail": "Detailed report",
+    "follow": "Keep track of posts created and orders placed for 1 week"
+  },
+  "createPost": {
+    "title": "Name of dish",
+    "price": "Price",
+    "dishError": "Please enter dish name",
+    "priceError": "Please enter the correct data",
+    "inRow": "in the row",
+    "numberVali": "Number and greater than 0",
+    "pageName": "Create Your Post",
+    "time": "Post closing time",
+    "addDish": "More dishes",
+    "error": "Error",
+    "create": "Create post",
+    "endTime": "Post closing time",
+    "titleName": "Enter your title...",
+    "dishValidation": "Please enter {name} ",
+    "dishRow": " in row {number} ",
+    "name": "Title",
+    "dishPrice": "(Number and greater than 0)"
+  },
+  "postSchema": {
+    "min": "Minimum 10 characters",
+    "max": "Maximum 20 characters",
+    "title": "Please enter a title",
+    "time": "Please select the time",
+    "validate": "Time greater than 30 minutes from now"
+  }
+}
