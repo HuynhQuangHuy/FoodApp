@@ -8,16 +8,11 @@
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/basir/mern-amazona.git"
-  },
+
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/basir/mern-amazona/issues"
-  },
-  "homepage": "https://github.com/basir/mern-amazona#readme",
+  
+
   "dependencies": {
     "bootstrap": "^5.1.3",
     "react-bootstrap": "^2.3.0",
