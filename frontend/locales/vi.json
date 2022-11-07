@@ -1,0 +1,162 @@
+{
+  "home": "Trang chủ",
+  "logout": "Đăng xuất",
+  "choosenTab": {
+    "comfirmBox": "Bạn chắc chắn muốn đặt hàng chứ?",
+    "comfirmButton": "Xác nhận đặt",
+    "cancelButton": "huỷ bỏ",
+    "timeOutButton": "Hết thời gian",
+    "deleteButton": "Xoá hết",
+    "note": "Ghi chú của bạn"
+  },
+  "comFirm": {
+    "amount": "Số món:",
+    "total": "Tổng tiền:",
+    "price": "Giá:",
+    "quantity": "Số lượng:",
+    "error": "Bạn chưa có gì để thanh toán"
+  },
+  "listItem": {
+    "title": "Bạn chắc chắn muốn xóa chứ?",
+    "comfirm": "Xác nhận",
+    "cancel": "Huỷ bỏ",
+    "price": "Giá:",
+    "quantity": "Số lượng:",
+    "total": "Tổng tiền:"
+  },
+  "payTab": {
+    "title": "Biểu đồ trạng thái số đơn thanh toán",
+    "paidLabel": "Đã thanh toán",
+    "unpaidLabel": "Chưa thanh toán",
+    "moneyChartTitle": "Biểu đồ trạng thái số tiền thanh toán",
+    "paidMoney": "Tiền đã trả",
+    "unpaidMoney": "Tiền chưa trả",
+    "comfirm": " Chắc chắn người dùng này đã thanh toán rồi chứ?",
+    "price": "Giá:",
+    "quantity": "Số lượng:",
+    "total": "Tổng tiền:",
+    "empty": "Danh sách trống",
+    "cancel": " Huỷ bỏ"
+  },
+  "dishTable": {
+    "add": "Thêm món ăn",
+    "foodName": "Tên món",
+    "price": "Giá (VND)",
+    "image": "Hình ảnh"
+  },
+  "foodList": {
+    "alert": "Đặt hàng thành công",
+    "waiting": "Chờ xác nhận",
+    "status": "Đã đặt",
+    "empty": "Danh sách trống",
+    "list": "Dánh sách món ăn",
+    "comfirm": "Chọn món"
+  },
+  "trend": {
+    "trend": "Nổi bật",
+    "alert": "Chưa tới giờ đặt cơm, vui lòng trở lại sau",
+    "post": "Tạo bài đăng mới",
+    "page": "Trang cá nhân"
+  },
+  "header": {
+    "profile": "Hồ sơ của tôi",
+    "logOut": "Đăng xuất"
+  },
+  "countDown": {
+    "title": "Thời gian còn lại"
+  },
+  "detail": {
+    "alert": "Cập nhập thành công!",
+    "account": "Tài khoản của tôi",
+    "cart": "Báo cáo đơn hàng",
+    "detail": "Chi tiết bài đăng",
+    "list": "Danh sách món ",
+    "status": "Đã đặt "
+  },
+  "edit": {
+    "title": "Sửa hồ sơ",
+    "information": "Thông tin cá nhân",
+    "personalInfo": "Quản lý thông tin hồ sơ để bảo mật tài khoản",
+    "edit": "Chỉnh sửa hồ sơ",
+    "bank": "Chỉnh sửa tài khoản ngân hàng",
+    "save": "Lưu thông tin",
+    "comfirm": " cập nhập thành công!",
+    "userName": "Tên đăng nhập",
+    "fullName": "Tên đầy đủ",
+    "phone": "Số điện thoại",
+    "number": "Số tài khoản",
+    "bankName": "Tên ngân hàng",
+    "owner": "Chủ tài khoản"
+  },
+  "detailsBooked": {
+    "detail": "Chi tiết đơn hàng: ",
+    "food": "Món ăn: ",
+    "personalInfo": "Quản lý thông tin hồ sơ để bảo mật tài khoản",
+    "edit": "Chỉnh sửa hồ sơ",
+    "bank": "Chỉnh sửa tài khoản ngân hàng",
+    "save": "Lưu thông tin",
+    "comfirm": " cập nhập thành công!",
+    "title": "Tên bài đăng",
+    "date": "Ngày đặt",
+    "status": "Trạng thái",
+    "note": "Ghi chú",
+    "price": "Giá: ",
+    "quantity": "Số lượng: ",
+    "total": "Tổng: ",
+    "name": "Tên người đăng",
+    "unPaid": "Chưa thanh toán"
+  },
+  "posted": {
+    "image": "Hình ảnh",
+    "title": "Tiêu đề",
+    "time": "Thời gian tạo",
+    "endTime": "Thời gian kết thúc"
+  },
+  "report": {
+    "title": "Báo cáo đơn hàng",
+    "detail": "Báo cáo chi tiết ",
+    "follow": "Theo dõi những bài đăng đã tạo và đơn hàng đã đặt trong 1 tuần"
+  },
+
+  "createPost": {
+    "title": "Tên món",
+    "price": "Giá",
+    "dishError": "Vui lòng nhập món ăn",
+    "priceError": "Vui lòng nhập đúng dữ liệu",
+    "inRow": "ở hàng",
+    "numberVali": "Số và lớn hơn 0",
+    "pageName": "Tạo Bài Đăng Của Bạn",
+    "time": "Thời gian đóng bài viết",
+    "addDish": "Thêm món ăn",
+    "error": "Lỗi",
+    "create": "Tạo bài đăng",
+    "endTime": "Thời gian đóng bài viết",
+    "titleName": "Nhập tiêu đề của bạn ...",
+    "dishValidation": "Vui lòng nhập {name} ",
+    "dishRow": " ở hàng {number} ",
+    "name": "Tiêu đề",
+    "dishPrice": "(Số và lớn hơn 0)"
+  },
+  "postSchema": {
+    "min": "Tối thiểu 10 kí tự",
+    "max": "Tối đa 20 kí tự",
+    "title": "Vui lòng nhập tiêu đề",
+    "time": "Vui lòng chọn thời gian",
+    "validate": "Thời gian lớn hơn 30 phút tính từ bây giờ"
+  },
+  "userProfile": {
+    "title": "Sửa hồ sơ",
+    "information": "Thông tin cá nhân",
+    "personalInfo": "Quản lý thông tin hồ sơ để bảo mật tài khoản",
+    "edit": "Thông tin người dùng",
+    "bank": "Thông tin tài khoản ngân hàng",
+    "save": "Lưu thông tin",
+    "comfirm": " cập nhập thành công!",
+    "userName": "Tên đăng nhập",
+    "fullName": "Tên đầy đủ",
+    "phone": "Số điện thoại",
+    "number": "Số tài khoản",
+    "bankName": "Tên ngân hàng",
+    "owner": "Chủ tài khoản"
+  }
+}
