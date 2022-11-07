@@ -1,27 +1,33 @@
-import React from 'react';
-import { Container, Wrapper, Row, Column, Link, Title } from './styles/footer';
+import React from "react";
+import {
+  StyleContainer,
+  StyleWrapper,
+  StyleRow,
+  StyleColumn,
+  StyleLink,
+  StyleTitle,
+} from "./styles/footer";
 
 export default function Footer({ children, ...restProps }) {
-  return <Container {...restProps}>{children}</Container>;
+  return <StyleContainer {...restProps}>{children}</StyleContainer>;
 }
 
-Footer.Wrapper = function FooterWrapper({children, ...restProps}) {
-  return <Wrapper {...restProps}>{children}</Wrapper>
-}
+Footer.Wrapper = function FooterWrapper({ children, ...restProps }) {
+  return <StyleWrapper {...restProps}>{children}</StyleWrapper>;
+};
 
 Footer.Row = function FooterRow({ children, ...restProps }) {
-  return <Row {...restProps}>{children}</Row>;
+  return <StyleRow {...restProps}>{children}</StyleRow>;
 };
 
 Footer.Column = function FooterColumn({ children, ...restProps }) {
-  return <Column {...restProps}>{children}</Column>;
+  return <StyleColumn {...restProps}>{children}</StyleColumn>;
 };
 
 Footer.Link = function FooterLink({ children, ...restProps }) {
-  return <Link {...restProps}>{children}</Link>;
+  return <StyleLink {...restProps}>{children}</StyleLink>;
 };
 
 Footer.Title = function FooterTitle({ children, ...restProps }) {
-  return <Title {...restProps}>{children}</Title>;
+  return <StyleTitle {...restProps}>{children}</StyleTitle>;
 };
-

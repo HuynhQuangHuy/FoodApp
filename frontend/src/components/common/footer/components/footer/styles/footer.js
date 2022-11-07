@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const StyleContainer = styled.div`
   padding: 80px 60px;
   background: radial-gradient(circle, rgb(251 39 39) 0%, rgb(188 95 31) 100%);
 
@@ -9,7 +9,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Wrapper = styled.div`
+export const StyleWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,14 +18,14 @@ export const Wrapper = styled.div`
   /* background: red; */
 `;
 
-export const Column = styled.div`
+export const StyleColumn = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
   margin-left: 60px;
 `;
 
-export const Row = styled.div`
+export const StyleRow = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 20px;
@@ -35,7 +35,7 @@ export const Row = styled.div`
   }
 `;
 
-export const Link = styled.a`
+export const StyleLink = styled.a`
   color: #fff;
   margin-bottom: 20px;
   font-size: 18px;
@@ -47,7 +47,7 @@ export const Link = styled.a`
   }
 `;
 
-export const Title = styled.p`
+export const StyleTitle = styled.p`
   font-size: 24px;
   color: #fff;
   margin-bottom: 40px;
