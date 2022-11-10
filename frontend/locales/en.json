@@ -30,13 +30,7 @@
     "unpaidLabel": "Unpaid",
     "moneyChartTitle": "Status chart of payment amount",
     "paidMoney": "Paid money",
-    "unpaidMoney": "Unpaid money",
-    "comfirm": " Are you sure this user has already paid?",
-    "price": "Price: ",
-    "quantity": "Amount: ",
-    "total": "Total: ",
-    "cancel": "Cance",
-    "empty": "List is empty"
+    "unpaidMoney": "Unpaid money"
   },
   "dishTable": {
     "add": "More dishes",
@@ -70,6 +64,21 @@
     "account": "My account",
     "cart": "Order report",
     "detail": "Post details",
+    "addDish": "More dishes",
+    "comfirm": " Are you sure this user has already paid?",
+    "price": "Price: ",
+    "quantity": "Amount: ",
+    "total": "Total: ",
+    "cancel": "Cance",
+    "empty": "List is empty",
+    "error": "Error",
+    "create": "Create post",
+    "endTime": "Post closing time",
+    "titleName": "Enter your title...",
+    "dishValidation": "Please enter {name} ",
+    "dishRow": " in row {number} ",
+    "name": "Title",
+    "dishPrice": "(Number and greater than 0)",
     "list": "List of dishes",
     "status": "Ordered"
   },
@@ -112,6 +121,13 @@
     "time": "Post creation time",
     "endTime": "End time"
   },
+  "postSchema": {
+    "min": "Minimum 10 characters",
+    "max": "Maximum 20 characters",
+    "title": "Please enter a title",
+    "time": "Please select the time",
+    "validate": "Time greater than 30 minutes from now"
+  },
   "report": {
     "title": "Order report",
     "detail": "Detailed report",
@@ -125,22 +141,6 @@
     "inRow": "in the row",
     "numberVali": "Number and greater than 0",
     "pageName": "Create Your Post",
-    "time": "Post closing time",
-    "addDish": "More dishes",
-    "error": "Error",
-    "create": "Create post",
-    "endTime": "Post closing time",
-    "titleName": "Enter your title...",
-    "dishValidation": "Please enter {name} ",
-    "dishRow": " in row {number} ",
-    "name": "Title",
-    "dishPrice": "(Number and greater than 0)"
-  },
-  "postSchema": {
-    "min": "Minimum 10 characters",
-    "max": "Maximum 20 characters",
-    "title": "Please enter a title",
-    "time": "Please select the time",
-    "validate": "Time greater than 30 minutes from now"
+    "time": "Post closing time"
   }
 }
