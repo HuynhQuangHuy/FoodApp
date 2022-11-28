@@ -33,7 +33,7 @@ import ProductEditScreen from "./screens/ProductEditScreen";
 import OrderListScreen from "./screens/OrderListScreen";
 import UserListScreen from "./screens/UserListScreen";
 import UserEditScreen from "./screens/UserEditScreen";
-import { FooterContainer } from "./components/common/footer/containers/footer";
+// import { FooterContainer } from "./components/common/footer/containers/footer";
 import MapScreen from "./screens/MapScreen";
 
 function App() {
@@ -268,7 +268,7 @@ function App() {
         </main>
         <br />
         <br />
-        <FooterContainer />
+        {/* <FooterContainer /> */}
       </div>
     </BrowserRouter>
   );
