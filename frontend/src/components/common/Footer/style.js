@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { devices } from "assets/style/responsive";
 const StyleContainer = styled.div`
-  padding: 64px 8px;
+  background-color: black;
+  padding: 64px 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   @media ${devices.desktop} {
@@ -19,12 +20,16 @@ const StyleContainer = styled.div`
   ul {
     margin: 0;
     padding: 0;
+    list-style: none;
     li + li {
       margin-top: 15px;
       @media ${devices.ipad} {
         font-size: 16px;
       }
     }
+  }
+  a {
+    text-decoration: none;
   }
   p + p {
     margin: 15px 0px;
