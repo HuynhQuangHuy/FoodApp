@@ -20,7 +20,7 @@ export const FOOTERS = [
       "Sponsors",
       "Teams",
       "Tutorials",
-      "Video courses",
+      "Tutorial Videos",
     ],
   },
   {
@@ -30,7 +30,6 @@ export const FOOTERS = [
       "Documentation",
       "Examples",
       "Deployments",
-      "Master courses",
       "Modules",
       "Releases",
       "Showcases",
