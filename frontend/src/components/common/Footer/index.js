@@ -1,8 +1,8 @@
 import React from "react";
-import { FOOTERS } from "constants/staticData";
-import tw from "assets/images/tw.svg";
-import dis from "assets/images/dis.svg";
-import git from "assets/images/git.svg";
+import { FOOTERS } from "../../../constants/staticData";
+import tw from "../../../assets/images/tw.svg";
+import dis from "../../../assets/images/dis.svg";
+import git from "../../../assets/images/git.svg";
 import { StyleContainer, StyleForm, StyleBtn, StyleLink } from "./style";
 
 const Footer = () => {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { devices } from "assets/style/responsive";
+import { devices } from "../../../assets/style/responsive";
 const StyleContainer = styled.div`
   background-color: black;
   padding: 64px 20px;
