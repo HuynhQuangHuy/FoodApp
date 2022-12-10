@@ -41,7 +41,7 @@ const Footer = () => {
         >
           NewsLetter
         </p>
-        <p>
+        <p style={{ color: "#EEE9E9" }}>
           The latest news, articles, and resources, sent to your inbox monthly.
         </p>
         <StyleForm>
