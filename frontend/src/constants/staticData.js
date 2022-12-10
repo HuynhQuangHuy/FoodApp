@@ -4,8 +4,8 @@ export const FOOTERS = [
     childrend: [
       "Contact us",
       "Enterprise support",
-      "NuxtLabs company",
-      "Open Source Software",
+      "Company",
+      "Restaurant",
       "Partnerships",
       "Telemetr",
     ],
@@ -14,26 +14,25 @@ export const FOOTERS = [
     title: "Ecosystem",
     childrend: [
       "Announcements",
-      "Contribute",
+
       "Chat with us",
       "Events",
       "Sponsors",
-      "Teams",
+      "Food",
       "Tutorials",
       "Tutorial Videos",
     ],
   },
   {
-    title: "Resources",
+    title: "Dish",
     childrend: [
-      "Design",
-      "Documentation",
+      "Chicken rice",
+      "Noodle",
       "Examples",
-      "Deployments",
+      "Cake",
       "Modules",
       "Releases",
       "Showcases",
-      "Themes",
     ],
   },
 ];
