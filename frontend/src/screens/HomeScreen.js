@@ -7,7 +7,6 @@ import Product from "../components/Product";
 import { Helmet } from "react-helmet-async";
 import LoadingBox from "../components/LoadingBox";
 import MessageBox from "../components/MessageBox";
-import "./Home.css";
 
 import Collection from "../components/collection";
 const collectionList = [
